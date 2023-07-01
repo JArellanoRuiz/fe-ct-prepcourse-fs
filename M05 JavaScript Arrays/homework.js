@@ -265,7 +265,7 @@ function continueStatement(num) {
    var nuevoNum=[];
    nuevoNum[0]=num+2;
   
-   for (var i=1; i<10; i++){
+   for (var i=1; i<9; i++){
       /* if (i===5){
          nuevoNum[i]=nuevoNum[i-1];
          continue;

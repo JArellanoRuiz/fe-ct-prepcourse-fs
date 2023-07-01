@@ -9,12 +9,12 @@ function continueStatement(num) {
    nuevoNum[0]=num+2;
   console.log(nuevoNum[0]);
    for (var i=1; i<10; i++){
-      if (i===5){
+      /* if (i===5){
          nuevoNum[i]=nuevoNum[i-1];
          continue;
-      } else {
+      } else { */
          nuevoNum[i]=nuevoNum[i-1]+2;
-      }
+      //}
    }
    console.log (nuevoNum);
 }
