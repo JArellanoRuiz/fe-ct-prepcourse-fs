@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(47, 47, 124);
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(235, 231, 231);
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+p {
+    font-weight: bold;
+}
+
+#boton_envia {
+        width: 10em;
+        height: 5ex;
+        background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+}
+
+#boton_envia:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+img{
+    width: 100%;
+    height: 100%;
+     object-fit: contain;
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
