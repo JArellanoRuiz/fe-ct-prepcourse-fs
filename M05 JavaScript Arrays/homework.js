@@ -235,24 +235,23 @@ function breakStatement(num) {
    // la ejecución y retornar el string: "Se interrumpió la ejecución".
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
-   var suma=0;
-   var nuevoNum=[num];
+   var suma=num;
+   var nuevoNum=[];
    for (var i=0; i<10; i++){
-    
-    if (i===0){
-        nuevoNum[0]=num+2;
-        continue;
+    suma=suma+2;
+    if (suma===i){
+      break;    
+    }else{
+      nuevoNum.push(suma);
     }
-    
-    suma=suma+nuevoNum[i];  
-    nuevoNum[i]=nuevoNum[i-1]+2;
-      
-      if (suma===i){
-         return "Se interrumpió la ejecución";
-         break;
-      }
    }
-   return nuevoNum;
+   if(nuevoNum.length<10){
+      return "Se interrumpió la ejecución";
+   }else if (nuevoNum.length===10) {
+      return nuevoNum;
+   }
+
+   
 }
 
 function continueStatement(num) {
